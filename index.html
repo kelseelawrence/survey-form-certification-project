@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Swiftie Survey</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  
+  </head>
+  <body> 
+
+    <h1 id="title" class="raleway">TAYLOR NATION SURVEY</h1>
+    <p id="description"> Thank you for taking the time to share your swifite experience with us! 
+      </p>
+
+  <form id="survey-form">
+
+<fieldset>
+  <label id="name-label" for="name"> Name
+   <input id="name"  type="text" required placeholder="First name Last name">
+  </label>
+
+ <label id="email-label" for="email"> Email
+   <input id="email" type="email" required placeholder="email@gmail.com">
+</label>
+
+ <label id="number-label" for="number"> Age
+   <input id="number" type="number" min="10" max="120" placeholder="How old are you?">
+   </label>
+
+   </fieldset>
+   <fieldset>
+ <label for="dropdown"> Which swiftie type best describes you? </legend>
+<select id="dropdown" type="select"> 
+  <option value="">(select one)</option>
+  <option value="1">HARDCORE SWIFTIE</option>
+  <option value="2">pretty big swiftie</option>
+  <option value="3">average swiftie</option>
+  <option value="4">um none</option>
+  </select>
+  </fieldset>
+  
+<fieldset>
+  <legend>Would you visit Taylor Nation's website again?</legend>
+  <label for="rec-1">
+     <input id="rec-1" type="radio" name="recomendation" class="inline" value="1" checked />Yes</label>
+  <label for="rec-2">
+     <input id="rec-2" type="radio" name="recomendation" class="inline" value="2" checked />Maybe</label>
+  <label for="rec-3">
+     <input id="rec-3" type="radio" name="recomendation" class="inline" value="3" checked />Probably not</label>
+</fieldset>
+
+<fieldset>
+  <legend for="favorite">What is your favorite Taylor Swift album?(okay fine top 5)
+  </legend>
+    <label for="Taylor Swift">
+     <input id="Taylor Swift" type="checkbox" name="fav-album" class="inline" value="Taylor Swift" /> Taylor Swift, <em>2006</em> </label>
+   <label for="Fearless">
+     <input id="Fearless" type="checkbox" name="fav-album" class="inline" value="Fearless" /> Fearless, <em>2008</em> </label>
+   <label for="Speak Now">
+     <input id="Speak Now" type="checkbox" name="fav-album" class="inline" value="Speak Now" /> Speak Now, <em>2010</em> </label>
+   <label for="Red">
+     <input id="Red" type="checkbox" name="fav-album" class="inline" value="Red" /> Red, <em>2012</em> </label>
+   <label for="1989">
+     <input id="1989" type="checkbox" name="fav-album" class="inline" value="1989" /> 1989, <em>2014</em> </label>
+   <label for="Reputation">
+     <input id="Reputation" type="checkbox" name="fav-album" class="inline" value="Reputation" /> Reputation, <em>2017</em> </label>
+   <label for="Lover">
+     <input id="Lover" type="checkbox" name="fav-album" class="inline" value="Lover" /> Lover, <em>2019</em> </label>
+   <label for="Folklore">
+     <input id="Folklore" type="checkbox" name="fav-album" class="inline" value="Folklore" /> Folklore, <em>2020</em> </label>
+     <label for="Evermore">
+     <input id="Evermore" type="checkbox" name="fav-album" class="inline" value="Evermore" /> Evermore, <em>2020</em> </label>
+    <label for="Midnights">
+     <input id="Midnights" type="checkbox" name="fav-album" class="inline" value="Midnights" /> Midnights, <em>2021</em> </label>
+    <label for="Fearless (Taylor's Version)">
+     <input id="Fearless (Taylor's Version)" type="checkbox" name="fav-album" class="inline" value="Fearless (Taylor's Version)" /> Fearless (Taylor's Version), <em>2021</em> </label>
+    <label for="Red (Taylor's Version)">
+     <input id="Red (Taylor's Version)" type="checkbox" name="fav-album" class="inline" value="Red (Taylor's Version)" /> Red (Taylor's Version), <em>2021</em> </label>
+    <label for="Speak Now (Taylor's Version)">
+     <input id="Speak Now (Taylor's Version)" type="checkbox" name="fav-album" class="inline" value="Speak Now (Taylor's Version)" /> Speak Now (Taylor's Version), <em>2023</em> </label>
+    <label for="1989 (Taylor's Version)">
+     <input id="1989 (Taylor's Version)" type="checkbox" name="fav-album" class="inline" value="1989 (Taylor's Version)" /> 1989 (Taylor's Version), <em>2023</em> </label>
+    <label for="The Tortured Poets Department">
+     <input id="The Tortured Poets Department" type="checkbox" name="fav-album" class="inline" value="The Tortured Poets Department" /> The Tortured Poets Department, <em>2024</em> </label>
+</fieldset>
+
+<label for="comments">Any comments or suggestions?
+  <textarea id="comments" name="comments" rows="3" col"30" placeholder="Enter your comment here..."></textarea>
+</label>
+ <input id="submit" type="submit" value="Submit" />
+
+ </form>
+<body>
